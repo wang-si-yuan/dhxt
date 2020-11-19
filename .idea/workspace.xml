@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:git" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:x" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7715dbd-49a6-41f0-b736-461448dce727" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="@Aspect" />
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/wang-si-yuan/algorithm" />
+        <option value="https://github.com/wang-si-yuan/leetcode" />
+        <option value="https://github.com/wang-si-yuan/userdemo" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kKKybgRN6VqyWPdCsqgq0NY4Dk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.DhxtApplication">
+    <configuration name="DhxtApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.dhxt.DhxtApplicationTests" />
+      <module name="dhxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.dhxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.dhxt.common.utils.IsCodeUtil" />
+      <module name="dhxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.dhxt.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.dhxt.common.utils.RSA" />
+      <module name="dhxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.dhxt.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DhxtApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dhxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.dhxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wang.dhxt" />
+      <option name="MAIN_CLASS_NAME" value="com.wang.dhxt.DhxtApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DhxtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dhxt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wang.dhxt.DhxtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DhxtApplicationTests" />
+        <item itemvalue="JUnit.DhxtApplicationTests.contextLoads" />
+        <item itemvalue="Application.IsCodeUtil" />
+        <item itemvalue="Application.RSA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7715dbd-49a6-41f0-b736-461448dce727" name="Default Changelist" comment="" />
+      <created>1605444100173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605444100173</updated>
+      <workItem from="1605444103679" duration="1109000" />
+      <workItem from="1605445220874" duration="4548000" />
+      <workItem from="1605490818933" duration="17833000" />
+      <workItem from="1605576843092" duration="2862000" />
+      <workItem from="1605589709246" duration="48671000" />
+      <workItem from="1605767058929" duration="13645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="207" key="#Inspections" timestamp="1605589924524">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="474" y="207" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1605589924524" />
+    <state x="440" y="187" width="800" height="723" key="#Intentions" timestamp="1605493941696">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="187" width="800" height="723" key="#Intentions/0.0.1680.1050@0.0.1680.1050" timestamp="1605493941696" />
+    <state x="241" y="358" key="#SQL_Dialects" timestamp="1605493843226">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="241" y="358" key="#SQL_Dialects/0.0.1680.1050@0.0.1680.1050" timestamp="1605493843226" />
+    <state x="440" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605493732013">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605493732013" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1605792588767">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1605792588767" />
+    <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605602961258">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="276" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605602961258" />
+    <state x="563" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605766020956">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="563" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1680.1050@0.0.1680.1050" timestamp="1605766020956" />
+    <state x="399" y="251" key="FileDocumentManager.FileCacheConflict" timestamp="1605714436410">
+      <screen x="0" y="25" width="1680" height="956" />
+    </state>
+    <state x="399" y="251" key="FileDocumentManager.FileCacheConflict/0.25.1680.956@0.25.1680.956" timestamp="1605714436410" />
+    <state x="714" y="426" key="Github.ShareDialog" timestamp="1605793807114">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="714" y="426" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605793807114" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605793088515">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088515" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.25.1680.956@0.25.1680.956" timestamp="1605670008757" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605793088514">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088514" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.25.1680.956@0.25.1680.956" timestamp="1605670008755" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605793088513">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088513" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.25.1680.956@0.25.1680.956" timestamp="1605670008753" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605793088515">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088515" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.25.1680.956@0.25.1680.956" timestamp="1605670008756" />
+    <state width="1638" height="295" key="GridCell.Tab.1.bottom" timestamp="1605793088517">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088517" />
+    <state width="1638" height="295" key="GridCell.Tab.1.bottom/0.25.1680.956@0.25.1680.956" timestamp="1605670008760" />
+    <state width="1638" height="295" key="GridCell.Tab.1.center" timestamp="1605793088516">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088516" />
+    <state width="1638" height="295" key="GridCell.Tab.1.center/0.25.1680.956@0.25.1680.956" timestamp="1605670008758" />
+    <state width="1638" height="295" key="GridCell.Tab.1.left" timestamp="1605793088516">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088516" />
+    <state width="1638" height="295" key="GridCell.Tab.1.left/0.25.1680.956@0.25.1680.956" timestamp="1605670008757" />
+    <state width="1638" height="295" key="GridCell.Tab.1.right" timestamp="1605793088517">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605793088517" />
+    <state width="1638" height="295" key="GridCell.Tab.1.right/0.25.1680.956@0.25.1680.956" timestamp="1605670008759" />
+    <state x="378" y="184" key="Maven.ArtifactSearchDialog" timestamp="1605673593137">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="378" y="184" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605673593137" />
+    <state x="584" y="231" key="RollbackChangesDialog" timestamp="1605766900643">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="584" y="231" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605766900643" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1605767109527">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605767109527" />
+    <state x="378" y="265" width="923" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605669462371">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="378" y="265" width="923" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050@0.0.1680.1050" timestamp="1605669462371" />
+    <state x="245" y="185" key="new project wizard" timestamp="1605674340096">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="245" y="185" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1605674340096" />
+    <state x="624" y="306" key="refactoring.ChangeSignatureDialog" timestamp="1605688667103">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="624" y="306" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605688667103" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1605777752130">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1605777752130" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
