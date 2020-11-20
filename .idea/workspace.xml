@@ -22,16 +22,62 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7715dbd-49a6-41f0-b736-461448dce727" name="Default Changelist" comment="更新用户操作接口">
+    <list default="true" id="b7715dbd-49a6-41f0-b736-461448dce727" name="Default Changelist" comment="更新登陆登出接口">
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/UpdateCurrUserAPIParam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/aspect/PermissionCheckAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/aspect/PermissionCheckAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/aspect/TokenCheckAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/aspect/TokenCheckAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/result/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/result/ResultUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/PermissionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/TokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/PermissionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/TokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/TokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/DhxtApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/DhxtApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/annotation/PassToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/annotation/PassToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/annotation/PermissionCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/annotation/PermissionCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/aspect/PermissionCheckAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/aspect/PermissionCheckAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/aspect/TokenCheckAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/aspect/TokenCheckAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/GetUsersByQueryAPIParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/GetUsersByQueryAPIParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/LoginAPIParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/LoginAPIParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/PageParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/PageParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/PassTokenUpdatePasswordAPIParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/PassTokenUpdatePasswordAPIParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/RegisterAPIParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/RegisterAPIParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/SendUpdatePasswordEmailAPIParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/SendUpdatePasswordEmailAPIParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/param/UpdatePasswordEmailAPIParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/param/UpdatePasswordEmailAPIParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/po/DhGenderPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/po/DhGenderPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/po/DhUserPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/po/DhUserPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/domain/po/DhVipPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/domain/po/DhVipPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/finalArgs/VipType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/finalArgs/VipType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/result/ResultUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/result/ResultUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/ApplicationContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/ApplicationContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/EntityClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/EntityClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/IsCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/IsCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/MailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/Md5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/Md5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/PasswordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/utils/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/utils/TokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/common/vo/ControllerResultVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/common/vo/ControllerResultVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/config/MybatisRedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/config/MybatisRedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/mapper/DhGenderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/mapper/DhGenderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/mapper/DhUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/mapper/DhUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/mapper/DhVipMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/mapper/DhVipMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/DhGenderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/DhGenderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/DhUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/DhUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/DhVipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/DhVipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/RegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/DhGenderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/impl/DhGenderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/DhUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/impl/DhUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/DhVipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/impl/DhVipServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/RegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/impl/RegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dhxt/person/service/impl/TokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/vicp/wsy19990317/dhxt/person/service/impl/TokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/DhGenderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/DhGenderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/DhUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/DhUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/DhVipMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/DhVipMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wang/dhxt/DhxtApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/vicp/wsy19990317/dhxt/DhxtApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +216,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DhxtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="dhxt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.vicp.wsy19990317.dhxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.vicp.wsy19990317.dhxt.DhxtApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DhxtApplicationTests" />
+      <item itemvalue="Application.IsCodeUtil" />
+      <item itemvalue="Application.RSA" />
+      <item itemvalue="JUnit.DhxtApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.DhxtApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.DhxtApplication" />
         <item itemvalue="Application.DhxtApplicationTests" />
         <item itemvalue="JUnit.DhxtApplicationTests.contextLoads" />
         <item itemvalue="Application.IsCodeUtil" />
@@ -193,7 +261,7 @@
       <workItem from="1605576843092" duration="2862000" />
       <workItem from="1605589709246" duration="48671000" />
       <workItem from="1605767058929" duration="17825000" />
-      <workItem from="1605834612629" duration="9879000" />
+      <workItem from="1605834612629" duration="16195000" />
     </task>
     <task id="LOCAL-00001" summary="更新用户操作接口">
       <created>1605842570471</created>
@@ -202,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605842570472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新登陆登出接口">
+      <created>1605851130682</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605851130682</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +301,8 @@
       <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="更新用户操作接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新用户操作接口" />
+    <MESSAGE value="更新登陆登出接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新登陆登出接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="474" y="207" key="#Inspections" timestamp="1605589924524">
@@ -241,10 +317,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="241" y="358" key="#SQL_Dialects/0.0.1680.1050@0.0.1680.1050" timestamp="1605493843226" />
-    <state x="440" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605493732013">
+    <state x="440" y="187" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605863352095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605493732013" />
+    <state x="440" y="187" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605863352095" />
     <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1605846892122">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -273,45 +349,45 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="478" y="227" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605793904600" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605850933603">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1605863290481">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933603" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290481" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.25.1680.956@0.25.1680.956" timestamp="1605670008757" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605850933601">
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1605863290479">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933601" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290479" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.25.1680.956@0.25.1680.956" timestamp="1605670008755" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605850933601">
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1605863290478">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933601" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290478" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.25.1680.956@0.25.1680.956" timestamp="1605670008753" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605850933602">
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1605863290480">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933602" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290480" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.25.1680.956@0.25.1680.956" timestamp="1605670008756" />
-    <state width="1638" height="295" key="GridCell.Tab.1.bottom" timestamp="1605850933605">
+    <state width="1638" height="295" key="GridCell.Tab.1.bottom" timestamp="1605863290483">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933605" />
+    <state width="1638" height="295" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290483" />
     <state width="1638" height="295" key="GridCell.Tab.1.bottom/0.25.1680.956@0.25.1680.956" timestamp="1605670008760" />
-    <state width="1638" height="295" key="GridCell.Tab.1.center" timestamp="1605850933604">
+    <state width="1638" height="295" key="GridCell.Tab.1.center" timestamp="1605863290482">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933604" />
+    <state width="1638" height="295" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290482" />
     <state width="1638" height="295" key="GridCell.Tab.1.center/0.25.1680.956@0.25.1680.956" timestamp="1605670008758" />
-    <state width="1638" height="295" key="GridCell.Tab.1.left" timestamp="1605850933603">
+    <state width="1638" height="295" key="GridCell.Tab.1.left" timestamp="1605863290481">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933603" />
+    <state width="1638" height="295" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290481" />
     <state width="1638" height="295" key="GridCell.Tab.1.left/0.25.1680.956@0.25.1680.956" timestamp="1605670008757" />
-    <state width="1638" height="295" key="GridCell.Tab.1.right" timestamp="1605850933605">
+    <state width="1638" height="295" key="GridCell.Tab.1.right" timestamp="1605863290483">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605850933605" />
+    <state width="1638" height="295" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1605863290483" />
     <state width="1638" height="295" key="GridCell.Tab.1.right/0.25.1680.956@0.25.1680.956" timestamp="1605670008759" />
     <state x="378" y="184" key="Maven.ArtifactSearchDialog" timestamp="1605673593137">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -325,10 +401,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1605842536874" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1605842581988">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1605851133985">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1605842581988" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1605851133985" />
     <state x="378" y="265" width="923" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605669462371">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
