@@ -9,15 +9,6 @@ import javax.servlet.http.HttpSession;
 
 public class TokenUtil {
 
-    public static String getTokenUserId(HttpServletRequest httpServletRequest) {
-        HttpSession session=httpServletRequest.getSession();
-
-        String token= (String) session.getAttribute("token");
-        System.out.println(token);
-        String userId = JWT.decode(token).getAudience().get(0);
-        return userId;
-    }
-
     /**
      * 获取request
      *

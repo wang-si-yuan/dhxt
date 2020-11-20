@@ -3,11 +3,8 @@ package com.wang.dhxt.common.aspect;
 import com.wang.dhxt.common.annotation.PermissionCheck;
 import com.wang.dhxt.common.domain.po.DhUserPo;
 import com.wang.dhxt.common.result.ResultUtil;
-import com.wang.dhxt.common.utils.TokenUtil;
-import com.wang.dhxt.person.service.DhVipService;
 import com.wang.dhxt.person.service.PermissionService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -16,15 +13,8 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.request.RequestAttributes;
-import org.springframework.web.context.request.RequestContextHolder;
 
-import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.List;
-
 @Aspect
 @Component
 @Slf4j
@@ -67,7 +57,7 @@ public class PermissionCheckAspect {
                     if(user==null){
                         resultUtil.getFalse(ResultUtil.TOKEN_EXCEPTION);
                     }else {
-                        if (user.getDhVipCode()==role){
+                        if (user.getDhVipCode()>=role){
                             log.info("AOP权限角色校验通过，进入业务层处理！");
                             return pjp.proceed();
                         }

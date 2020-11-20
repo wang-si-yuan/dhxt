@@ -14,9 +14,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class LoginServiceImpl extends ServiceImpl<DhUserMapper, DhUserPo> implements LoginService {
 
-    @Autowired
-    private TokenService tokenService;
-
     @Override
     public Integer login(LoginAPIParam param) throws Exception {
         DhUserPo user=getUser(param.getDhAccount(),param.getDhEmail());
@@ -37,9 +34,7 @@ public class LoginServiceImpl extends ServiceImpl<DhUserMapper, DhUserPo> implem
     @Override
     public DhUserPo getUser(String dhAccount,String dhEmail){
         if(dhEmail!=null){
-            QueryWrapper<DhUserPo> byEmailWrapper=new QueryWrapper<>();
-            byEmailWrapper.eq("dh_email",dhEmail);
-            return getOne(byEmailWrapper);
+            return getOne(new QueryWrapper<DhUserPo>().lambda().eq(DhUserPo::getDhEmail,dhEmail));
         }else if (dhAccount!=null){
             return getById(dhAccount);
         }else {

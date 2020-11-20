@@ -82,9 +82,7 @@ public class RegisterServiceImpl extends ServiceImpl<DhUserMapper, DhUserPo> imp
 
     @Override
     public String getAccountByEmail(String email) {
-        QueryWrapper<DhUserPo> byEmailWrapper=new QueryWrapper<>();
-        byEmailWrapper.eq("dh_email",email);
-        DhUserPo user=getOne(byEmailWrapper);
+        DhUserPo user=getOne(new QueryWrapper<DhUserPo>().lambda().eq(DhUserPo::getDhEmail,email));
         if (user==null||user.getDhAccount()==null){
             return null;
         }else {

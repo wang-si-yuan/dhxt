@@ -28,7 +28,7 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("利用Swagger2构建RESTful APIs")
+                .title("通用数据采集与数据可视化系统")
                 .description("swagger")
                 .termsOfServiceUrl("")
                 .contact(new Contact("Wang Siyuan", "", "2650306917@qq.com"))

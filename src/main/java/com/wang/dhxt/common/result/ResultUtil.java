@@ -38,6 +38,7 @@ public class ResultUtil {
     static public final Integer CHECK_CODE_EMAIL_SEND_SUCCESS=3;
     static public final Integer CHECK_CODE_SUCCESS=4;
     static public final Integer PASSWORD_UPDATE_SUCCESS=5;
+    static public final Integer QUERY_SUCCESS=6;
 
 
     static private Map<Integer,String> map;
@@ -62,6 +63,7 @@ public class ResultUtil {
         map.put(IS_NULL_CHECK_CODE,"验证码失效");
         map.put(CHECK_ERROR,"验证码输入错误");
         map.put(PASSWORD_UPDATE_ERROR,"密码更新失败");
+        map.put(QUERY_SUCCESS,"查询成功");
 
         map.put(LOGIN_SUCCESS,"登陆成功");
         map.put(REGIST_SUCCESS,"注册成功");

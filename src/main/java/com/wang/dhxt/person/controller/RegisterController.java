@@ -6,10 +6,12 @@ import com.wang.dhxt.common.domain.param.PassTokenUpdatePasswordAPIParam;
 import com.wang.dhxt.common.domain.param.RegisterAPIParam;
 import com.wang.dhxt.common.domain.param.SendUpdatePasswordEmailAPIParam;
 import com.wang.dhxt.common.domain.param.UpdatePasswordEmailAPIParam;
+import com.wang.dhxt.common.domain.po.DhGenderPo;
 import com.wang.dhxt.common.domain.po.DhUserPo;
 import com.wang.dhxt.common.result.ResultUtil;
 import com.wang.dhxt.common.utils.EntityClassUtil;
 import com.wang.dhxt.common.vo.ControllerResultVo;
+import com.wang.dhxt.person.service.DhGenderService;
 import com.wang.dhxt.person.service.RegisterService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +33,9 @@ public class RegisterController {
 
     @Autowired
     private RegisterService registerService;
+
+    @Autowired
+    private DhGenderService genderService;
 
     @Autowired
     private ResultUtil resultUtil;
@@ -152,5 +157,10 @@ public class RegisterController {
                 return resultUtil.getFalse(CHECK_ERROR);
         }
         return resultUtil.getSuccess(null,CHECK_CODE_SUCCESS);
+    }
+
+    @GetMapping("getAllGender")
+    public ControllerResultVo getAllGenderAPI(){
+        return resultUtil.getSuccess(genderService.getBaseMapper().selectList(new QueryWrapper<DhGenderPo>().lambda().isNotNull(DhGenderPo::getDhGender)),0) ;
     }
 }
