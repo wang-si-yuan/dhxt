@@ -1,9 +1,8 @@
 package com.wang.dhxt.common.aspect;
 
 import com.wang.dhxt.common.annotation.PassToken;
-import com.wang.dhxt.common.domain.po.DhUserPo;
 import com.wang.dhxt.common.result.ResultUtil;
-import com.wang.dhxt.person.service.PermissionService;
+import com.wang.dhxt.person.service.TokenService;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -24,7 +23,7 @@ public class TokenCheckAspect {
     private ResultUtil resultUtil;
 
     @Autowired
-    private PermissionService permissionService;
+    private TokenService tokenService;
 
 
     @Pointcut(value = "execution (* com..*.controller.*Controller.*(..))")
@@ -42,7 +41,7 @@ public class TokenCheckAspect {
             }
         }
         try {
-            if(permissionService.getCurrUser()==null){
+            if(tokenService.getCurrUser()==null){
                 resultUtil.getFalse(ResultUtil.TOKEN_EXCEPTION);
             }
 

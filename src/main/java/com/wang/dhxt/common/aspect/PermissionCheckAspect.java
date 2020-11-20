@@ -3,7 +3,7 @@ package com.wang.dhxt.common.aspect;
 import com.wang.dhxt.common.annotation.PermissionCheck;
 import com.wang.dhxt.common.domain.po.DhUserPo;
 import com.wang.dhxt.common.result.ResultUtil;
-import com.wang.dhxt.person.service.PermissionService;
+import com.wang.dhxt.person.service.TokenService;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
@@ -21,7 +21,7 @@ import java.lang.reflect.Method;
 public class PermissionCheckAspect {
 
     @Autowired
-    private PermissionService permissionService;
+    private TokenService tokenService;
 
     @Autowired
     private ResultUtil resultUtil;
@@ -53,7 +53,7 @@ public class PermissionCheckAspect {
                 //List<String> list = Arrays.asList(roles);
                 //根据id从数据库中查询管理员权限(可用前台传过来的id作为参数)
                 try {
-                    DhUserPo user=permissionService.getCurrUser();
+                    DhUserPo user=tokenService.getCurrUser();
                     if(user==null){
                         resultUtil.getFalse(ResultUtil.TOKEN_EXCEPTION);
                     }else {
